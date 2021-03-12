@@ -1,5 +1,5 @@
-const ZMuseum = artifacts.require("ZMuseum");
+const ZArt = artifacts.require("ZArt");
 
 module.exports = function (deployer) {
-  deployer.deploy(ZMuseum);
+  deployer.deploy(ZArt);
 };

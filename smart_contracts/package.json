@@ -6,7 +6,7 @@
   "scripts": {
     "blockchain": "npx ganache-cli --deterministic",
     "compile": "npx truffle compile",
-    "migrate:development": "npx truffle migrate --network development"
+    "migrate:dev": "npx truffle migrate --network development"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^3.4.1"
